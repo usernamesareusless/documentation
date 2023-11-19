@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-11-19T20:20:17.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.3" etag="NhUJBKk0Qsf81sBlll_C" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-19T21:03:43.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="s-zKWYXQL1YPDynGhqN2" version="22.1.3" type="github">
   <diagram name="Page-1" id="s_tSXBTHODiz0TlcPPJd">
-    <mxGraphModel>
+    <mxGraphModel dx="472" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-4" value="Initialize&lt;br&gt;" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="230" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-5" value="Ask for problem statement&lt;br&gt;(what is&amp;nbsp;&lt;i&gt;&lt;b&gt;&lt;u&gt;actually &lt;/u&gt;&lt;/b&gt;&lt;/i&gt;happening/not happening and when)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
+          <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-6" value="Determine Impact, priority and deadline&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(sparc)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
+          <mxGeometry x="10" y="180" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-9" value="Identify obstacles or safety risks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
+          <mxGeometry x="10" y="320" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-11" value="Determine running state&lt;br&gt;(what is it suppose to be doing)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
+          <mxGeometry x="10" y="110" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-12" value="Make initial game plan&lt;br&gt;(what is the most likely or easy to fix root cause)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
+          <mxGeometry x="10" y="250" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-10" value="Analize alternatives" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-13" value="Action" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="530" width="230" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-14" value="Look at overall station and specific issue&lt;br&gt;(is there something obvious)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+          <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-15" value="Manually actuate station in a way to prove or eliminate initial root cause theory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+          <mxGeometry x="10" y="180" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-16" value="Stop and Reassess situation with observations&lt;br&gt;(start from the beginning if needed)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+          <mxGeometry x="10" y="250" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-17" value="Observe issue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(watch it run/ get to faulted state)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+          <mxGeometry x="10" y="110" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-18" value="Notate any key observations or work done" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+          <mxGeometry x="10" y="320" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-27" value="When Root cause is found, analyze multiple options of repair if possible based on sparc observations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+          <mxGeometry x="10" y="390" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-28" value="FIX IT!!!!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+          <mxGeometry x="10" y="530" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-29" value="Communicate repair options and ETA with production and team for best option" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+          <mxGeometry x="10" y="460" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-20" value="Wrap Up" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1130" width="230" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-21" value="Validate repairs made" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-20">
+          <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-22" value="Document Problem statement, root cause and any relevant work done.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-20">
+          <mxGeometry x="10" y="180" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-23" value="Reflect if there is an opportunity to prevent issue from reoccurring" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-20">
+          <mxGeometry x="10" y="250" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-24" value="Communicate Root cause and fix to all involved parties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-20">
+          <mxGeometry x="10" y="110" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-25" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-20">
+          <mxGeometry x="10" y="320" width="210" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
