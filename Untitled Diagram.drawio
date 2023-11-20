@@ -1,115 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2023-11-19T22:23:21.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="hLAlHyK6YBZZJ9ShzSsZ" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-20T01:03:13.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TZcEocTy0dZgkC8Ag_9u" version="22.1.3" type="github">
   <diagram name="Page-1" id="s_tSXBTHODiz0TlcPPJd">
-    <mxGraphModel dx="714" dy="1586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1564" dy="2686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-4" value="Prepare (dont touch!)" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="320" y="130" width="230" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-5" value="Ask for problem statement&lt;br&gt;(what is&amp;nbsp;&lt;i&gt;&lt;b&gt;&lt;u&gt;actually &lt;/u&gt;&lt;/b&gt;&lt;/i&gt;happening/not happening and when)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
-          <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-6" value="Determine Impact, priority and deadline&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(sparc)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
-          <mxGeometry x="10" y="180" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-9" value="Identify obstacles or safety risks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
-          <mxGeometry x="10" y="320" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-11" value="Determine running state&lt;br&gt;(what is it suppose to be doing)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
-          <mxGeometry x="10" y="110" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-12" value="Make initial game plan&lt;br&gt;(what is the most likely or easy to fix root cause, have we seen this before)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-4">
-          <mxGeometry x="10" y="250" width="210" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="M2U-wYDhbBoCub5JwwPa-10" value="Analize alternatives" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1380" y="390" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-13" value="Action" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#00CC00;" vertex="1" parent="1">
-          <mxGeometry x="320" y="530" width="230" height="690" as="geometry" />
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-57" value="Prepare (DONT TOUCH ANYTHING!)" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-910" width="230" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-14" value="Look at overall station and specific issue&lt;br&gt;(is there something obvious)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-58" value="Ask for problem statement&lt;br&gt;(What is&amp;nbsp;&lt;i&gt;&lt;b&gt;&lt;u&gt;actually &lt;/u&gt;&lt;/b&gt;&lt;/i&gt;happening/not happening and when)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-57">
           <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-15" value="Use process of elimination&lt;br&gt;(manually control station to find root cause)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-59" value="Determine Impact, priority and deadline&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(SPARC)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-57">
           <mxGeometry x="10" y="180" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-17" value="Observe issue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(watch it run/ get to faulted state)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-60" value="Identify obstacles or safety risks" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-57">
+          <mxGeometry x="10" y="320" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-61" value="Determine running state&lt;br&gt;(What is it suppose to be doing)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-57">
           <mxGeometry x="10" y="110" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-27" value="Analyze multiple repair options based on sparc observations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
-          <mxGeometry x="10" y="440" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-28" value="FIX IT!!!!" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00CC00;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
-          <mxGeometry x="10" y="650" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-29" value="Communicate repair options and ETA with production and team for best repair method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
-          <mxGeometry x="10" y="580" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-23" value="Is there an opportunity to upgrade and prevent issue from reoccurring" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
-          <mxGeometry x="10" y="510" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-18" value="Notate any key observations" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-62" value="Make initial game plan&lt;br&gt;(What is the most likely or easy to fix root cause, have we seen this before)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-57">
           <mxGeometry x="10" y="250" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-49" value="Was root cause found?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
-          <mxGeometry x="10" y="320" width="210" height="20" as="geometry" />
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-63" value="Action" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-510" width="230" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-50" value="No" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
-          <mxGeometry x="10" y="340" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="M2U-wYDhbBoCub5JwwPa-13" source="M2U-wYDhbBoCub5JwwPa-51" target="M2U-wYDhbBoCub5JwwPa-27">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-51" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-13">
-          <mxGeometry x="120" y="340" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-20" value="Wrap Up" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="320" y="1230" width="230" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-21" value="Validate repairs made" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-20">
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-64" value="Look at overall station and specific issue&lt;br&gt;(Is there something obvious)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
           <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-22" value="Document Problem statement, root cause and any relevant work done.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-20">
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-65" value="Use process of elimination&lt;br&gt;(Manually control station to find root cause)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
           <mxGeometry x="10" y="180" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-24" value="Communicate Root cause and fix to all involved parties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-20">
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-66" value="Observe issue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(Watch it run/ get to faulted state)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
           <mxGeometry x="10" y="110" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-16" target="M2U-wYDhbBoCub5JwwPa-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="195" y="410" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-67" value="Analyze multiple repair options based on sparc observations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
+          <mxGeometry x="10" y="440" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-16" target="M2U-wYDhbBoCub5JwwPa-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="195" y="200" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-68" value="FIX IT!!!!" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#00CC00;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
+          <mxGeometry x="10" y="650" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="195" y="860" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="195" y="890" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-69" value="Communicate repair options and ETA with production and team for best repair method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
+          <mxGeometry x="10" y="580" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-16" value="Stop and Reassess situation with observations&lt;br&gt;(start from the beginning if needed)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="90" y="920" width="210" height="60" as="geometry" />
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-70" value="Is there an opportunity to upgrade and prevent issue from reoccurring" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
+          <mxGeometry x="10" y="510" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-16" target="M2U-wYDhbBoCub5JwwPa-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="195" y="600" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-71" value="Notate any key observations" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
+          <mxGeometry x="10" y="250" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M2U-wYDhbBoCub5JwwPa-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-50" target="M2U-wYDhbBoCub5JwwPa-16">
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-72" value="Was root cause found?" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
+          <mxGeometry x="10" y="320" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-73" value="No" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
+          <mxGeometry x="10" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="M2U-wYDhbBoCub5JwwPa-63" source="M2U-wYDhbBoCub5JwwPa-75" target="M2U-wYDhbBoCub5JwwPa-67">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-75" value="Yes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-63">
+          <mxGeometry x="120" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-79" target="M2U-wYDhbBoCub5JwwPa-62">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="25" y="-630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-79" target="M2U-wYDhbBoCub5JwwPa-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="25" y="-840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-79">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="25" y="-180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="25" y="-150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-79" value="Stop and Reassess situation with observations&lt;br&gt;(Start from the beginning if needed)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-120" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-79" target="M2U-wYDhbBoCub5JwwPa-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="25" y="-440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="M2U-wYDhbBoCub5JwwPa-73" target="M2U-wYDhbBoCub5JwwPa-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-82" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-950" width="540" height="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-83" value="Wrap Up" style="swimlane;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;strokeColor=#0000FF;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-82">
+          <mxGeometry x="270" y="1150" width="230" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-84" value="Validate repairs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-83">
+          <mxGeometry x="10" y="180" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-85" value="Document Problem statement, root cause and any relevant work done.&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-83">
+          <mxGeometry x="10" y="320" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-86" value="Communicate Root cause and fix to all involved parties" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-83">
+          <mxGeometry x="10" y="250" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-87" value="Clean Up&lt;br&gt;(Tools/Parts accounted for, temporary logic reverted ect.)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-83">
+          <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M2U-wYDhbBoCub5JwwPa-88" value="Double check all changes made" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="M2U-wYDhbBoCub5JwwPa-83">
+          <mxGeometry x="10" y="110" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
